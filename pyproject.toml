@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sqlalchemy-hw7"
+version = "0.1.0"
+description = ""
+authors = ["Yevhenii Korniev <94477980+Korniev@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.23"
+psycopg2-binary = "^2.9.9"
+poetry = "^1.7.1"
+alembic = "^1.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
